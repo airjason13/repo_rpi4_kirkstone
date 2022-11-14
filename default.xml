@@ -4,16 +4,16 @@
   <default sync-j="4" />
   
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://github.com/agherzan" name="raspberrypi"/>
-  <remote fetch="git://github.com/openembedded" name="oe"/>
-  <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
-  <remote fetch="git://github.com/kraj" name="clang"/>
-  <remote fetch="git://github.com/meta-qt5" name="qt5"/>
-  <remote fetch="git://github.com/schnitzeltony" name="qt5-extra"/>
-  <remote fetch="git://git.openembedded.org" name="python2"/>
-  <remote fetch="git://github.com/meta-rust" name="rust"/>
-  <remote fetch="git://github.com/sbabic" name="swupdate"/>
-  <remote fetch="git://github.com/airjason13" name="venom-honister"/>-->
+  <remote fetch="https://github.com/agherzan" name="raspberrypi"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
+  <remote fetch="https://github.com/kraj" name="clang"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+  <remote fetch="https://github.com/schnitzeltony" name="qt5-extra"/>
+  <remote fetch="https://git.openembedded.org" name="python2"/>
+  <remote fetch="https://github.com/meta-rust" name="rust"/>
+  <remote fetch="https://github.com/sbabic" name="swupdate"/>
+  <remote fetch="https://github.com/airjason13" name="venom-honister"/>-->
   
   <project remote="yocto" name="poky" revision="8d27f1fea95b2b07edaa01970aa3ebd57541e896" path="poky" />
   <project remote="raspberrypi" name="meta-raspberrypi" revision="0135a02ea577bd39dd552236ead2c5894d89da1d" path="meta-raspberrypi" />
