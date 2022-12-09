@@ -13,7 +13,7 @@
   <remote fetch="https://git.openembedded.org" name="python2"/>
   <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://github.com/sbabic" name="swupdate"/>
-  <remote fetch="https://github.com/airjason13" name="venom-honister"/>-->
+  <remote fetch="https://github.com/airjason13" name="venom-honister"/>
   
   <project remote="yocto" name="poky" revision="8d27f1fea95b2b07edaa01970aa3ebd57541e896" path="poky" />
   <project remote="raspberrypi" name="meta-raspberrypi" revision="0135a02ea577bd39dd552236ead2c5894d89da1d" path="meta-raspberrypi" />
@@ -25,6 +25,6 @@
   <project remote="python2" name="meta-python2" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253"  path="meta-python2"/>
   <project remote="rust" name="meta-rust" revision="c654f5cb928bd4f4c7da7d74a8356fd2a94283f6"  path="meta-rust"/>
   <project remote="swupdate" name="meta-swupdate" revision="2faeb01a7a95e06eb477f70dcd46f5d508c861eb"  path="meta-swupdate"/>
-  <project remote="venom-honister" name="meta-venom-honister" revision="8d7ab0319fb324f6621f0744569ff930aee48733"  path="meta-venom-honister"/> -->
+  <project remote="https://github.com/airjason13/meta-venom-honister.git" name="meta-venom-honister" revision="8d7ab0319fb324f6621f0744569ff930aee48733"  path="meta-venom-honister"/> -->
 
 </manifest>
